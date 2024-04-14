@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Header() {
       <header className="">
         <nav className="bg-white w-screen  border-b border-gray-200 px-4 lg:px-6 py-2.5">
           <div className="flex flex-wrap  justify-between items-center mx-auto max-w-screen-xl">
-            <a href="/" className="flex items-center px-10">
+            <Link href="/" className="flex items-center px-10">
               <Image
                 src="/logo_verde.png"
                 alt="ricardo Logo"
@@ -21,14 +22,14 @@ export default function Header() {
                 height={100}
                 className="mt-3"
               />
-            </a>
+            </Link>
             <div className="lg:flex items-center lg:order-2">
-              <a
+              <Link
                 href="#"
                 className="hidden lg:flex text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2   focus:outline-none "
               >
                 Contratar agora
-              </a>
+              </Link>
               <button
                 onClick={toggleMobileMenu}
                 type="button"
@@ -72,64 +73,64 @@ export default function Header() {
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 "
                     aria-current="page"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
                   >
                     Sobre
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
                   >
                     Medicina
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
                   >
                     Odontologia
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
                   >
                     Outras Especialidades
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="#"
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
                   >
                     Contato
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="mt-3 lg:hidden">
-            <a
+            <Link
               href="#"
               className=" flex text-center text-white bg-green-900 hover:bg-green-950 focus:ring-4 focus:ring-green-900 font-medium rounded text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2   focus:outline-none "
             >
               Contratar agora
-            </a>
+            </Link>
           </div>
         </nav>
       </header>
