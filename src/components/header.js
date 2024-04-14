@@ -74,8 +74,8 @@ export default function Header() {
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 "
+                    href="/"
+                    className="block py-2 pr-4 pl-3 text-gray-700 rounded bg-primary-700 lg:bg-transparent lg:text-green-900 lg:p-0 "
                     aria-current="page"
                   >
                     Home
@@ -83,40 +83,40 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
+                    href="/sobre"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-green-900 lg:p-0   hover:text-white "
                   >
                     Sobre
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
+                    href="/medicina"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-900 lg:p-0   "
                   >
                     Medicina
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
+                    href="/odontologia"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-900 lg:p-0    "
                   >
                     Odontologia
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
+                    href="/outras"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-900 lg:p-0    "
                   >
                     Outras Especialidades
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0  lg:hover:text-white  hover:text-white "
+                    href="/contato"
+                    className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-green-900 lg:p-0    "
                   >
                     Contato
                   </Link>

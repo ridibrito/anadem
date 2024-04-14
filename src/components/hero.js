@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <section class="bg-green-50   w-screen">
-        <div class=" grid lg:bg-[url('/capa6.png')]  bg-contain bg-no-repeat bg-right max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class=" grid lg:bg-[url('/capa6.png')]  bg-contain bg-no-repeat bg-right max-w-screen-xl px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div class="lg:mr-auto mx-auto lg:w-4/5 w-auto px-5 lg:px-0 place-self-center lg:col-span-7">
             <div className="mx-auto">
               <Image
