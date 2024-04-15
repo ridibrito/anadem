@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -7,14 +8,14 @@ export default function Footer() {
         <div className="mx-auto max-w-screen-xl">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="/" className="flex items-center">
+              <Link href="/" className="flex items-center">
                 <Image
                   src="/logo_verde.png"
                   alt="logo Ricardo"
                   width={150}
                   height={150}
                 />
-              </a>
+              </Link>
               <div className="flex items-center gap-3 font-bold text-gray-600 mt-3">
                 <Image
                   src="/whatsapp.png"
@@ -41,19 +42,19 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-600 ">
                   <li className="mb-4">
-                    <a href="/medicina" className="hover:underline">
+                    <aLink href="/medicina" className="hover:underline">
                       Medicina
-                    </a>
+                    </aLink>
                   </li>
                   <li className="mb-4">
-                    <a href="/odontologia" className="hover:underline">
+                    <Link href="/odontologia" className="hover:underline">
                       Odontologia
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/outras" className="hover:underline">
+                    <Link href="/outras" className="hover:underline">
                       Outras Especialidades
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -64,31 +65,31 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-600 ">
                   <li className="mb-4">
-                    <a
+                    <Link
                       href="/politicas"
                       target="_blank"
                       className="hover:underline"
                     >
                       Políticas de Privacidade
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-4">
-                    <a
+                    <Link
                       href="/cancelamento"
                       target="_blank"
                       className="hover:underline"
                     >
                       Políticas de cancelamento
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/termos"
                       target="_blank"
                       className="hover:underline"
                     >
                       Regulamento &amp; Termos de uso
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -100,7 +101,7 @@ export default function Footer() {
               © 2024 Agência Albie . Todos os diretors reservados.
             </span>
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-              <a
+              <Link
                 href="https://www.facebook.com/ricardoalbuquerque.alb"
                 target="_blank"
                 className="text-gray-500 hover:text-gray-900 hover:"
@@ -117,8 +118,8 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.instagram.com/ricardo.albuquerque.alb/"
                 target="_blank"
                 className="text-gray-500 hover:text-gray-900 hover:"
@@ -135,8 +136,8 @@ export default function Footer() {
                     clip-rule="evenodd"
                   />
                 </svg>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.linkedin.com/in/ricardobalbuquerque/"
                 target="_blank"
                 className="text-gray-500 hover:text-gray-900 hover:"
@@ -149,7 +150,7 @@ export default function Footer() {
                 >
                   <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
