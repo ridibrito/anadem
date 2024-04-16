@@ -63,34 +63,42 @@ const features = [
 
 export default function Beneficios() {
   return (
-    <div className="bg-green-50 w-screen py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Vantagens na Contratação do FUMDAP
-          </p>
-        </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-lg bg-green-700">
-                    <feature.icon
-                      className="h-4 w-4 text-white"
-                      aria-hidden="true"
-                    />
-                  </div>
-                  {feature.name}
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">
-                  {feature.description}
-                </dd>
-              </div>
-            ))}
-          </dl>
+    <>
+      <div className="bg-green-50 w-screen py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:text-center">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Vantagens na Contratação do FUMDAP
+            </p>
+          </div>
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-8">
+              {features.map((feature) => (
+                <div key={feature.name} className="relative pl-16">
+                  <dt className="text-base font-semibold leading-7 text-gray-900">
+                    <div className="absolute left-0 top-0 flex h-8 w-8 items-center justify-center rounded-lg bg-green-700">
+                      <feature.icon
+                        className="h-4 w-4 text-white"
+                        aria-hidden="true"
+                      />
+                    </div>
+                    {feature.name}
+                  </dt>
+                  <dd className="mt-2 text-base leading-7 text-gray-600">
+                    {feature.description}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+            <a
+              href="https://anadem.lojavirtualnuvem.com.br/"
+              className="bg-green-900 inline-flex w-full mt-12 items-center justify-center mx-auto px-5 py-3 text-base font-medium text-center text-white border border-green-900 rounded-lg hover:bg-green-950 focus:ring-4 "
+            >
+              Faça sua adesão online
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

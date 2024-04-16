@@ -24,7 +24,7 @@ export default function Hero() {
             </p>
 
             <a
-              href="#"
+              href="https://anadem.lojavirtualnuvem.com.br/"
               className="bg-green-900 inline-flex w-full lg:w-2/3 items-center justify-center mx-auto px-5 py-3 text-base font-medium text-center text-white border border-green-900 rounded-lg hover:bg-green-950 focus:ring-4 "
             >
               Faça sua adesão online
