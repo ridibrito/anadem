@@ -2,7 +2,7 @@ import { FaCheck } from "react-icons/fa";
 
 const features = [
   {
-    name: "Indenização de até R$ 500 mil pessoa física e R$ 1 milhão pessoa jurídica",
+    name: "Indenização de até R$ 1 milhão pessoa física e R$ 2 milhões pessoa jurídica",
     description:
       "por sentenças judiciais, acordos judiciais ou extrajudiciais mediante acordo da Seguradora.",
     icon: FaCheck,

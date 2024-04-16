@@ -125,14 +125,6 @@ export default function Header() {
               </ul>
             </div>
           </div>
-          <div className="mt-3 lg:hidden">
-            <Link
-              href="#"
-              className=" flex text-center text-white bg-green-900 hover:bg-green-950 focus:ring-4 focus:ring-green-900 font-medium rounded text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2   focus:outline-none "
-            >
-              Contratar agora
-            </Link>
-          </div>
         </nav>
       </header>
     </>

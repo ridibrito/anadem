@@ -5,7 +5,10 @@ import Header from "@/components/header";
 export default function Document() {
   return (
     <Html lang="pt-br">
-      <Head />
+      <Head>
+        <title>Anadem</title>
+        <link rel="icon" href="/icone.png" />
+      </Head>
       <body>
         <Header />
         <Main />

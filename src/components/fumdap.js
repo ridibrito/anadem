@@ -4,13 +4,15 @@ import Link from "next/link";
 export default function Fumdap() {
   return (
     <>
-      <section class="bg-green-900 w-screen text-center">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div class="max-w-screen-lg  sm:text-lg text-gray-400">
-            <h2 class="mb-4 text-3xl tracking-tight font-bold  text-white">
-              O QUE É O FUMDAP?
-            </h2>
-            <p class="mb-4 font-light">
+      <section class="bg-green-900 w-screen mx-auto text-center ">
+        <div className=" w-screen py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl lg:text-center">
+              <p className="mt-2 text-3xl font-bold tracking-tight text-green-200 sm:text-4xl mb-10">
+                O que é o FUMDAP?
+              </p>
+            </div>
+            <p class="mb-4 text-gray-300">
               O FUMDAP (Fundo Prestamista de Defesa Profissional), mantido pela
               Anadem, não é um simples seguro de responsabilidade civil
               profissional, mas sim um sistema de segurança e proteção jurídica
@@ -22,7 +24,7 @@ export default function Fumdap() {
 
             <Link
               href="/anadem"
-              class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 text-primary-500 hover:text-primary-700"
+              class="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 text-gray-300 border rounded px-3 py-2 hover:text-primary-700"
             >
               Saiba mais
               <svg

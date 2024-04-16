@@ -1,7 +1,7 @@
 export default function Video() {
   return (
     <>
-      <section className="">
+      <section className="bg-gray-100 w-screen">
         <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
           <div className="mt-4 md:mt-0 justify-center">
             <h2 className="mb-4 text-2xl text-center px-12 tracking-tight font-extrabold text-green-900 ">
