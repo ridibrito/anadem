@@ -1,10 +1,10 @@
 export default function Politicas() {
   return (
     <>
-      <h1 className="text-2xl font-extrabold text-center py-24">
+      <h1 className="text-2xl font-extrabold text-center lg:py-24 py-12">
         Políticas de Privacidade
       </h1>
-      <div className="mx-auto max-w-6xl pb-24">
+      <div className="mx-auto max-w-6xl pb-24 p-8 lg:p-0 lg:pb-24">
         <h2 className="font-bold">1. INTRODUÇÃO</h2>
         <p className="mt-2">
           Esta política de privacidade define como a Anadem usa e protege

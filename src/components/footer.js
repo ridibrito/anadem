@@ -19,20 +19,20 @@ export default function Footer() {
               <div className="flex items-center gap-3 font-bold text-gray-600 mt-3">
                 <Image
                   src="/whatsapp.png"
-                  alt="logo Ricardo"
-                  width={24}
-                  height={24}
+                  alt="whatsapp"
+                  width={20}
+                  height={20}
                 />
-                <p>(61) 9 9861-5656</p>
+                <p className="text-gray-500">(61) 9 9861-5656</p>
               </div>
               <div className="flex items-center gap-3 font-bold text-gray-600">
                 <Image
                   src="/email.png"
                   alt="logo Ricardo"
-                  width={24}
-                  height={24}
+                  width={20}
+                  height={20}
                 />
-                <p>contato@souanadem.com.br</p>
+                <p className="text-gray-500">contato@souanadem.com.br</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -42,9 +42,9 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-600 ">
                   <li className="mb-4">
-                    <aLink href="/medicina" className="hover:underline">
+                    <Link href="/medicina" className="hover:underline">
                       Medicina
-                    </aLink>
+                    </Link>
                   </li>
                   <li className="mb-4">
                     <Link href="/odontologia" className="hover:underline">

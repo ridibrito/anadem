@@ -1,10 +1,10 @@
 export default function Cancelamento() {
   return (
     <>
-      <h1 className="text-2xl font-extrabold text-center py-24">
+      <h1 className="text-2xl font-extrabold text-center lg:py-24 py-12">
         Políticas de cancelamento
       </h1>
-      <div className="px-24 pb-24">
+      <div className="lg:px-24 pb-24 p-8">
         <p>O ASSOCIADO poderá ser excluído nas seguintes hipóteses:</p>
         <ul className="mt-3">
           <li>a) a pedido;</li>

@@ -1,7 +1,10 @@
 import Hero from "@/components/hero";
-import Especialidades from "@/components/especialidades";
+import Fumdap from "@/components/fumdap";
 import Video from "@/components/video";
 import Numeros from "@/components/numeros";
+import Beneficios from "@/components/beneficios";
+import Faq from "@/components/faq";
+
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +17,9 @@ export default function Home() {
       <Hero />
       <Video />
       <Numeros />
-      <Especialidades />
+      <Fumdap />
+      <Beneficios />
+      <Faq />
     </main>
   );
 }

@@ -6,6 +6,7 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
+    console.log("toggleMobileMenu called");
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
@@ -14,7 +15,7 @@ export default function Header() {
       <header className="">
         <nav className="bg-white w-screen  border-b border-gray-200 px-4 lg:px-6 py-2.5">
           <div className="flex flex-wrap  justify-between items-center mx-auto max-w-screen-xl">
-            <Link href="/" className="flex items-center px-10">
+            <Link href="/">
               <Image
                 src="/logo_verde.png"
                 alt="ricardo Logo"

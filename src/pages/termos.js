@@ -1,10 +1,10 @@
 export default function Termos() {
   return (
     <>
-      <h1 className="text-2xl font-extrabold text-center py-24">
+      <h1 className="text-2xl font-extrabold text-center lg:py-24 py-12">
         Regulamento e Termos de Uso
       </h1>
-      <div className="px-24 pb-24">
+      <div className="lg:px-24 p-8 pb-24">
         <p className="mt-3 font-bold">
           REGULAMENTO DO FUNDO DE DEFESA E ASSISTÊNCIAPROFISSIONAL – FUMDAP
         </p>
