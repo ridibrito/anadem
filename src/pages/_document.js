@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import Footer from "@/components/footer";
 
 const FB_PIXEL_ID = "3880645752172054";
