@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
       <Html lang="pt-br" className="!scroll-smooth">
         <Head>
           <title>Anadem - Direito Médico e Bioético</title>
+
           <meta
             name="description"
             content="Somos uma S.A. (Sociedade Anônima) que promove o debate sobre problemas relacionados ao exercício profissional da medicina e da odontologia. Além disso, oferecemos blindagem jurídica para profissionais da Saúde, por meio de escritórios de advocacia credenciados especializados em Direito Médico e Odontológico."
@@ -17,6 +18,7 @@ export default class MyDocument extends Document {
             name="facebook-domain-verification"
             content="b2fphkly8l3b3v7q70uf1prc3lr2xv"
           />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(h,o,t,j,a,r){
@@ -57,6 +59,19 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/icone.png" />
         </Head>
         <body>
+          <link
+            rel="stylesheet"
+            href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"
+          />
+          <a
+            id="robbu-whatsapp-button"
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=61998615656&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Anadem..."
+          >
+            <div class="rwb-tooltip">Fale conosco!</div>
+            <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg" />
+          </a>
+
           <Main />
           <NextScript />
           <Footer />

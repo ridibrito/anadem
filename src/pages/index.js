@@ -4,6 +4,7 @@ import Video from "@/components/video";
 import Numeros from "@/components/numeros";
 import Beneficios from "@/components/beneficios";
 import Faq from "@/components/faq";
+import Form from "@/components/form";
 
 import { Inter } from "next/font/google";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Numeros />
       <Fumdap />
       <Beneficios />
+      <Form />
       <Faq />
     </main>
   );
