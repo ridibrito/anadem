@@ -9,7 +9,15 @@ export default class MyDocument extends Document {
       <Html lang="pt-br" className="!scroll-smooth">
         <Head>
           <title>Anadem - Direito Médico e Bioético</title>
-
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFZ6X542'`,
+            }}
+          />
           <meta
             name="description"
             content="Somos uma S.A. (Sociedade Anônima) que promove o debate sobre problemas relacionados ao exercício profissional da medicina e da odontologia. Além disso, oferecemos blindagem jurídica para profissionais da Saúde, por meio de escritórios de advocacia credenciados especializados em Direito Médico e Odontológico."
@@ -57,15 +65,6 @@ export default class MyDocument extends Document {
             />
           </noscript>
           <link rel="icon" href="/icone.png" />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TFZ6X542'`,
-            }}
-          />
         </Head>
         <body>
           <iframe
